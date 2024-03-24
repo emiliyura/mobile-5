@@ -9,9 +9,7 @@ public class SpinnerActivity extends AppCompatActivity {
 
     private Spinner spinner;
 
-    String[] spinnerItems = {"Татьяна", "Олег", "Иван", "Анастасия", "Мария", "Александр", "Елена", "Николай", "Екатерина", "Дмитрий",
-            "Сергей", "Ольга", "Михаил", "Наталья", "Андрей", "Анна", "Алексей", "Виктория", "Константин", "Елизавета"};
-
+    String[] spinnerItems = {"apple", "banana", "orange", "grape", "pear", "peach", "watermelon", "pineapple", "mango", "kiwi"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,7 +22,7 @@ public class SpinnerActivity extends AppCompatActivity {
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
                 android.R.layout.simple_spinner_item, spinnerItems);
 
-        // Устанавливаем адаптер для списка
+        // Устанавливаем адаптер для списка nen
         spinner.setAdapter(adapter);
     }
 }

@@ -36,7 +36,7 @@
         android:id="@+id/guitar_brand_model"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Введите марку машины и модель " />
+        android:hint="Введите марку гитары и модель " />
 
 </LinearLayout>
 
